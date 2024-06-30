@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgres-ml:
+    container_name: postgres-ml
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    ports:
+      - 5433:5432
+      - 8000:8000
+    volumes:
+      - postgresml_data:/var/lib/postgresql
+volumes:
+  postgresml_data:
