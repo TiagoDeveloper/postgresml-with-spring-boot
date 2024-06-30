@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.tiagodeveloper.postgres-ml-dev' is invalid and this project uses 'com.tiagodeveloper.postgres_ml_dev' instead.
+
 
 # Getting Started
 
